@@ -76,8 +76,8 @@ export default function Task({ task, deleteTask, checkComplete, editTask }) {
                 sx={{
                   display: "flex",
                   justifyContent: "space-evenly",
-                  gap: "5px",
-                  width: { xs: "35%", md: "10%" },
+                  gap: "17px",
+                  width: { xs: "30%", md: "10%" },
                 }}
               >
                 <CheckCircleOutlineIcon
