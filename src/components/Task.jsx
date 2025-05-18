@@ -76,7 +76,7 @@ export default function Task({ task, deleteTask, checkComplete, editTask }) {
                 sx={{
                   display: "flex",
                   justifyContent: "space-evenly",
-                  gap: "17px",
+                  gap: "15px",
                   width: { xs: "30%", md: "10%" },
                 }}
               >
