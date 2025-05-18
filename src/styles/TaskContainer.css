@@ -1,0 +1,40 @@
+:root {
+    --b-radius: 20px;
+    --padding:15px
+}
+
+.field-container {
+    margin-block: 20px;
+    border-radius: var(--b-radius);
+    margin-inline: auto;
+    width: 60%;
+   
+}
+
+.field-container input {
+    border: none;
+    outline: none;
+    padding: var(--padding);
+    width: 85%;
+    border-radius: var(--b-radius);
+}
+
+.field-container button {
+    border: none;
+    outline: none;
+    padding: var(--padding);
+    border-radius: var(--b-radius);
+    width: 15%;
+}
+
+@media screen and (max-width :678px) {
+    .field-container {
+        width: 90%;
+    }
+    .field-container input {
+        width: 80%;
+    }
+    .field-container button {
+        width: 20%;
+    }
+}
